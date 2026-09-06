@@ -1,0 +1,17 @@
+{
+    "name": "libgsm",
+    "description": "GSM 06.10 Full Rate decoder",
+    "filters":["gsmdec"],
+    "help": "This filter decodes raw GSM 06.10 Full Rate audio (8 kHz mono, 33-byte frames) using libgsm.",
+    "support": [
+        "audio"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libgsm.accessor",
+    "filter_source":{
+        "gsmdec" : "dec_gsm.c"
+    },
+    "extension":{
+      "gsm" : "audio"
+    },
+    "licence_required":false
+}
