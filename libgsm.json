@@ -1,5 +1,6 @@
 {
     "name": "libgsm",
+    "version": "1.0.1",
     "description": "GSM 06.10 Full Rate decoder",
     "filters":["gsmdec"],
     "help": "This filter decodes raw GSM 06.10 Full Rate audio (8 kHz mono, 33-byte frames) using libgsm.",
