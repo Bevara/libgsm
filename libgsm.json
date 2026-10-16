@@ -13,6 +13,10 @@
     "extension":{
       "gsm" : "audio"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "expired",
+        "note": "GSM 06.10",
+        "checked": "2026-10-16"
+    }
 }
